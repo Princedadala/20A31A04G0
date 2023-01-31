@@ -1,0 +1,14 @@
+email="prince@gmail.com"
+pwd=123456
+otp=9999 
+cemail=input("enter the email :")
+cpwd=int(input("enter the pwd :"))
+cotp=int(input("enter otp :"))
+if(email==cemail and pwd==cpwd and otp==cotp):
+    print("login successfully")
+elif(email!=cemail and pwd==cpwd and otp==cotp):
+    print("login failed due to email")
+elif(email==cemail and pwd!=cpwd and otp==cotp):
+    print("login failed due to pwd")
+elif(email==cemail and pwd==cpwd and otp!=cotp):
+    print("login failed due to incorrect otp")
