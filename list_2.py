@@ -1,0 +1,9 @@
+num=[1,2,3,4,5,6,7]
+num.insert(3,100)
+print(num)
+num.remove(6)
+print(num)
+num.append(11)
+print(num)
+num.reverse()
+print(num)
